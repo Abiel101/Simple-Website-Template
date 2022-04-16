@@ -67,6 +67,7 @@ p, h1, nav{
         width: 375px;
         height: 100%;
         flex-direction: column;
+        display: block;
     }
     h1{
         font-size: 2rem;
@@ -79,8 +80,9 @@ p, h1, nav{
         height: 500px;
     }
     section{
+        margin-top: 5px;
         display: block;
         width: 350px;
-        padding: 0 5px;
+        padding: 0 10px;
     }
 }

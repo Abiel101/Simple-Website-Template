@@ -88,4 +88,16 @@ p, h1, nav{
         width: 350px;
         padding-left: 25px;
     }
+    /* Navigation */
+    .links a{
+        display: block;
+        font-weight: 300;
+    }
+    .links p, .project-section{
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+        color: #0876AD;
+        margin-bottom: 1px;
+    }
 }

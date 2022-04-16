@@ -79,7 +79,7 @@ p, h1, nav{
     }
     p, h1{
         margin: 0;
-        padding: 0;
+        /* padding: 0; */
     }
     /* Image and section parts */
     .image{

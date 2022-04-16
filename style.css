@@ -81,6 +81,9 @@ p, h1, nav{
         margin: 0;
         /* padding: 0; */
     }
+    .top-title{
+        margin-top: 1.5rem;
+    }
     /* Image and section parts */
     .image{
         width: 100%;

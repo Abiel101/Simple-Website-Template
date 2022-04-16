@@ -17,11 +17,12 @@ main{
 .image{
     border: solid 1px red;
     background-image: url(photo.jpeg);
-    background-size: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 section{
-    padding: 0 1.5em;
+    padding: 0 2em;
     text-align: left;
     display: flex;
     align-items: center;

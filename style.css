@@ -78,7 +78,5 @@ p, h1, nav{
     .image{
         height: 500px;
     }
-    section{
-        padding: 0 0.625em;
-    }
+
 }

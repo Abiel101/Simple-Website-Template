@@ -96,9 +96,6 @@ p, h1, nav{
         display: block;
         font-weight: 300;
     }
-    .links p{
-        display: block;
-    }
     .links p, .project-section{
         text-decoration: none;
         font-size: 18px;

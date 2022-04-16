@@ -32,3 +32,6 @@ section{
     justify-content: center;
     flex-direction: column;
 }
+p, h1, nav{
+    width: 100%;
+}

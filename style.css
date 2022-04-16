@@ -82,7 +82,7 @@ p, h1, nav{
         /* padding: 0; */
     }
     .top-title{
-        margin-top: 1.5rem;
+        margin-top: 5rem;
     }
     /* Image and section parts */
     .image{
@@ -90,7 +90,6 @@ p, h1, nav{
         height: 500px;
     }
     section{
-        margin-top: 5px;
         display: block;
         width: 350px;
         padding-left: 25px;

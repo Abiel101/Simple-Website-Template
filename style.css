@@ -62,5 +62,18 @@ p, h1, nav{
   and (-webkit-min-device-pixel-ratio: 3) { 
     main{
         flex-direction: column;
+        height: 100%;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .image, section{
+        width: 100%;
+    }
+    .image{
+        height: 300px;
+    }
+    section{
+        padding: 0 0.625em;
     }
 }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 *{
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 body{
     width: 100%;
@@ -11,6 +11,7 @@ body{
     box-sizing: border-box;
     font-family: Poppins;
     color: #222222;
+    border: solid 1px red;
 }
 /* defaults for the web page */
 p{

@@ -15,11 +15,13 @@ main{
     height: 100%;
 }
 .image{
+    border: solid 1px red;
     background-image: url(photo.jpeg);
-    background-size: auto;
+    background-size: 50%;
 }
 
 section{
+    padding: 0 1.5em;
     text-align: left;
     display: flex;
     align-items: center;

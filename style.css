@@ -71,6 +71,7 @@ p, h1, nav{
     }
     /* Text settings */
     h1{
+        padding: 0 5px;
         font-size: 2rem;
     }
     p, h1, nav{

@@ -41,7 +41,6 @@ main{
     height: 100%;
 }
 .image{
-    border: solid 1px red;
     background-image: url(photo.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -69,12 +68,14 @@ p, h1, nav{
         flex-direction: column;
         display: block;
     }
+    /* Text settings */
     h1{
         font-size: 2rem;
     }
     p, h1, nav{
         width: 350px;
     }
+    /* Image and section parts */
     .image{
         width: 98%;
         height: 500px;
@@ -83,6 +84,6 @@ p, h1, nav{
         margin-top: 5px;
         display: block;
         width: 350px;
-        padding: 0 10px;
+        padding: 10px 0;
     }
 }

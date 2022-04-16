@@ -16,10 +16,13 @@ main{
 }
 .image{
     background-image: url(photo.jpeg);
+    background-size: auto;
 }
 
 section{
+    text-align: left;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }

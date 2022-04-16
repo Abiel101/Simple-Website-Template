@@ -72,15 +72,15 @@ p, h1, nav{
         font-size: 2rem;
     }
     p, h1, nav{
-        width: 375px;
-    }
-    .image, section{
-        width: 375px;
+        width: 250px;
     }
     .image{
+        width: 375px;
         height: 500px;
     }
     section{
+        /* display: block */
+        width: 250px;
         padding: 0 5px;
     }
 }

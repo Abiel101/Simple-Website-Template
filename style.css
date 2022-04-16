@@ -32,6 +32,7 @@ main{
     height: 100vh;
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 .image, section{
     width: 50%;
@@ -69,10 +70,10 @@ p, h1, nav{
         font-size: 2rem;
     }
     .image, section{
-        width: 100%;
+        width: 375px;
     }
     .image{
-        height: 800px;
+        height: 500px;
     }
     section{
         padding: 0 0.625em;

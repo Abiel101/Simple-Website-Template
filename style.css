@@ -59,6 +59,7 @@ p, h1, nav{
     width: 100%;
 }
 
+/* Mobile phone screen sizing */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 

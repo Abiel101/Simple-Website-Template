@@ -155,4 +155,21 @@ nav{
         font-weight: 700;
         color: #0876AD;
     }
+    .header-footer{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .quote{
+        bottom: 10%;
+        right: 2.5%;
+        opacity: 0.5;
+        font-style: italic;
+    }
+    
+    .inspiration-link{
+        color: #0876AD;
+        text-decoration: none;
+    
+        margin-top: 1rem;
+    }
 }

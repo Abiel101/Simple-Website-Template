@@ -40,6 +40,12 @@ a{
     display: block;
     padding: 5px;
 }
+.bold{
+    color:#0876AD;
+}
+.bold-light{
+    color: #ABCDE6;
+}
 
 /* Main section styles */
 main{

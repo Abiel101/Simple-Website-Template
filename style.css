@@ -1,19 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&family=Roboto+Mono:wght@300&display=swap');
+:root{
+    --spacing: 2.5rem;
+    --monospace-font: 'Roboto Mono';
+    --main-font: Poppins;
+}
 *{
     /* border: solid 1px red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
     width: 100%;
     height: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Poppins;
+    font-family: var(--main-font);
     color: #222222;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 /* defaults for the web page */
+.top-title{
+    font-family: var(--monospace-font);
+}
 p{
     font-weight: 300;
     font-size: 1rem;
@@ -22,11 +29,16 @@ span{
     font-weight: 400;
 }
 h1{
-    font-weight: 700;
     font-size: 3.125rem;
+    margin-bottom: var(--spacing);
+}
+h1 span{
+    font-weight: 700;
 }
 a{
     color: #222222;
+    display: block;
+    padding: 5px;
 }
 
 /* Main section styles */
@@ -48,7 +60,7 @@ main{
 }
 
 section{
-    padding: 0 2em;
+    padding: 0 5em;
     text-align: left;
     display: flex;
     align-items: center;
@@ -58,6 +70,41 @@ section{
 p, h1, nav{
     width: 100%;
 }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: var(--spacing);
+}
+.links p, .links .project-section{
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.quote{
+    width: 40%;
+    position: absolute;
+    bottom: 15%;
+    right: 2.5%;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.inspiration-link{
+    position: absolute;
+    bottom: 3%;
+
+    color: #0876AD;
+    text-decoration: none;
+
+    margin: 1rem;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.inspiration-link:hover{
+    opacity: 1;
+}
+
 
 /* Mobile phone screen sizing */
 @media only screen 

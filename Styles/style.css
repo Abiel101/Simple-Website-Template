@@ -1,4 +1,43 @@
-@import url(/root-styles.css);
+/*@import url(/root-styles.css);*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&family=Roboto+Mono:wght@300&display=swap');
+
+:root{
+    --spacing: 2.5rem;
+    --monospace-font: 'Roboto Mono';
+    --main-font: Poppins;
+}
+*{
+    /* border: solid 1px red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-weight: 300;
+    font-size: 1rem;
+}
+span{
+    font-weight: 400;
+}
+h1{
+    font-size: 3.125rem;
+    margin-bottom: var(--spacing);
+}
+h1 span{
+    font-weight: 700;
+}
+a{
+    color: #222222;
+    display: block;
+    padding: 5px;
+}
+.bold{
+    color:#0876AD;
+}
+.bold-light{
+    color: #ABCDE6;
+}
 
 
 body{

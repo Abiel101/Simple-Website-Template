@@ -8,3 +8,21 @@ background color: #fdfdfd
 text color: #222222
 Link Colors: #0876AD
 Hover link: #ABCDE6
+
+# How To Get Started
+This website is meant to be simple and easy to use. I assume you don't know much about how website and might not be able to build your own so I will make this easy so you can this work for your project.
+## Must Know
+For any sort of changes to images or 
+## Project Folder
+In the project folder there will be a template page so if you add ned projects to your website you are able to duplicate this file and easily add it to the grid.
+Once you duplicate the file you can go in and rename the duplicated file. After its been renamed you can go in and begin to change any text.
+
+### Code to Look for 
+Most changes will be from heading, maybe groups of text of some simple link you will see these sections of code as these following tags
+    <h1> heading 1 tag </h1>
+    <a href="[add url link here]"> link tag </a> <!-- this is where you change some links-->
+## How to Setup Link
+In the home page I have place a main link for the projects page but also smaller links for your top projects. All you will need to do is change the "#" to the url or the link you want it to go to.
+
+EXAMPLE:
+    <a href="about-me.html">About Me</a>    

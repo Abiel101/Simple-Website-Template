@@ -1,14 +1,3 @@
-# Simple-Website-Template
-This is an idea I got from some one else and I absolutely loved so I thought I should remake it in my own style
-
-- add animation that is on top of image when it is in mobile version 
-
-# Colors
-background color: #fdfdfd
-text color: #222222
-Link Colors: #0876AD
-Hover link: #ABCDE6
-
 # How To Get Started
 This website is meant to be simple and easy to use. I assume you don't know much about how website and might not be able to build your own so I will make this easy so you can this work for your project.
 ## Must Know
@@ -23,15 +12,8 @@ All **Bold Text** has a small class called bold. Anything that you might want to
 ### Color Maniplation
 For all colors you can easily switch out the colors to fit your style by going to the *root.css* files and there you will see the root colors and even all the text manipulation you want. 
 For the colors you want to simply change the value for a color you want.
-```CSS
-:root{
-    --background-color: #fdfdfd;
-    --text-color: #222222;
-    --Link-colors: #0876AD;
-    --link-hover: #ABCDE6;
-}
 ```
-These will be the ones you want to change if you want to change some colors in your website. What ever floats your boat.
+
 ## Project Folder
 In the project folder there will be a template page so if you add ned projects to your website you are able to duplicate this file and easily add it to the grid.
 Once you duplicate the file you can go in and rename the duplicated file. After its been renamed you can go in and begin to change any text.

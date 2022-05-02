@@ -40,6 +40,9 @@ a{
     display: block;
     padding: 5px;
 }
+a:hover{
+    color: #0876AD;
+}
 .bold{
     color:#0876AD;
 }

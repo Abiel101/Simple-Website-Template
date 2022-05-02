@@ -10,9 +10,9 @@ Link Colors: #0876AD
 Hover link: #ABCDE6
 
 # TABLE OF CONTENTS
-[How to Get Started](#how-to-get-started)
-[Must Know](#must-know)
-    [Text Manipulation](#text-manipulation)
+- [How to Get Started](#how-to-get-started)
+- [Must Know](#must-know)
+    - [Text Manipulation](#text-manipulation)
 
 # How To Get Started
 This website is meant to be simple and easy to use. I assume you don't know much about how website and might not be able to build your own so I will make this easy so you can this work for your project.

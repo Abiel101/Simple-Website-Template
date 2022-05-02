@@ -13,6 +13,10 @@ Hover link: #ABCDE6
 - [How to Get Started](#how-to-get-started)
 - [Must Know](#must-know)
     - [Text Manipulation](#text-manipulation)
+    - [Color Manipulation](#color-maniplation)
+- [Project Folder](#project-folder)
+    - [Code To Look For](#code-to-look-for)
+- [How to Set Links](#how-to-setup-link)
 
 # How To Get Started
 This website is meant to be simple and easy to use. I assume you don't know much about how website and might not be able to build your own so I will make this easy so you can this work for your project.

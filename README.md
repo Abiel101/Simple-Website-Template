@@ -8,7 +8,7 @@ background color: #fdfdfd
 text color: #222222
 Link Colors: #0876AD
 Hover link: #ABCDE6
-
+___
 # TABLE OF CONTENTS
 - [How to Get Started](#how-to-get-started)
 - [Must Know](#must-know)
